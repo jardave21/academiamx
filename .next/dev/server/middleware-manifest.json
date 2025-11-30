@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/Documentos_GitHub_academiamx_f5c90790._.js",
+        "server/edge/chunks/node_modules_@opentelemetry_api_build_esm_4557a825._.js",
+        "server/edge/chunks/73ac2_@auth_core_6304d288._.js",
+        "server/edge/chunks/73ac2_jose_dist_webapi_c15c404f._.js",
+        "server/edge/chunks/73ac2_3df4ffc1._.js",
+        "server/edge/chunks/[root-of-the-server]__0a9123aa._.js",
+        "server/edge/chunks/turbopack-Documentos_GitHub_academiamx_edge-wrapper_83300f4a.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|_next\\/static|_next\\/image|.*\\.png$).*))(\\\\.json)?[\\/#\\?]?$",
+          "originalSource": "/((?!api|_next/static|_next/image|.*\\.png$).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "2qT4kme9EDVnICVNFwIpc2j9WfZrG8Ref8j/LwqGcM4=",
+        "__NEXT_PREVIEW_MODE_ID": "42a83e688384b19d95ce9e57a966b4fd",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "b7849bae591d125ea1f5c28f3c702ae09d673dbc68e99435f77b83490048ccf2",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "396cfe3421b943ed817706674141f336153f2d3c736bb555776bc5f38bd68f80"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
+  "functions": {}
+}

@@ -1,0 +1,86 @@
+{
+  "node": {
+    "007d61cc7bd6e272accc74a9e7759a48bd4a07d567": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSignOut",
+          "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+        },
+        "app/auth/login/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/auth/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documentos/GitHub/academiamx/app/auth/login/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSignOut",
+          "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+        },
+        "app/auth/signup/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/auth/signup/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documentos/GitHub/academiamx/app/auth/signup/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSignOut",
+          "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+        },
+        "app/catalog/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/catalog/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSignOut",
+          "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+        },
+        "app/dashboard/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSignOut",
+          "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+        },
+        "app/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSignOut",
+          "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "action-browser",
+        "app/auth/login/page": "action-browser",
+        "app/auth/signup/page": "action-browser",
+        "app/catalog/page": "action-browser",
+        "app/dashboard/page": "action-browser",
+        "app/page": "action-browser"
+      },
+      "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts",
+      "exportedName": "handleSignOut"
+    },
+    "60484701ccfb5239a99afb97062c52c13b5ddbf431": {
+      "workers": {
+        "app/auth/login/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/auth/login/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documentos/GitHub/academiamx/app/auth/login/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "authenticate",
+          "filename": "Documentos/GitHub/academiamx/app/auth/login/actions.ts"
+        }
+      },
+      "layer": {
+        "app/auth/login/page": "action-browser"
+      },
+      "filename": "Documentos/GitHub/academiamx/app/auth/login/actions.ts",
+      "exportedName": "authenticate"
+    },
+    "60fea5f5273463abdef6f1dec542871e815b5586e0": {
+      "workers": {
+        "app/auth/signup/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/auth/signup/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/Documentos/GitHub/academiamx/app/auth/signup/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "registerUser",
+          "filename": "Documentos/GitHub/academiamx/app/auth/signup/actions.ts"
+        }
+      },
+      "layer": {
+        "app/auth/signup/page": "action-browser"
+      },
+      "filename": "Documentos/GitHub/academiamx/app/auth/signup/actions.ts",
+      "exportedName": "registerUser"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "2qT4kme9EDVnICVNFwIpc2j9WfZrG8Ref8j/LwqGcM4="
+}

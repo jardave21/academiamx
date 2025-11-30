@@ -1,0 +1,663 @@
+[00:00:01.563] Server  WARN     ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.756] Server  LOG      ✓ Ready in 1330ms
+[00:00:13.074] Server  LOG      ○ Compiling /auth/login ...
+[00:00:15.163] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.407] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:15.407] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/auth/login","route":"/auth/login"}
+[00:00:15.407] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/auth/login color: rgb(120, 120, 120) color: inherit {"dp":"/auth/login","o":"http://localhost:3000/auth/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764479248237}
+[00:00:17.349] Server  LOG     Invalid credentials
+[00:00:17.350] Server  ERROR   [auth][error] CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+[00:00:17.351] Server  ERROR       at Module.callback (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:4314:30)
+    at async AuthInternal (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5148:24)
+    at async Auth (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5370:34)
+    at async signIn (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_85fe3dd5._.js:4163:17)
+    at async authenticate (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/[root-of-the-server]__947eed69._.js:153:9)
+    at async executeActionAndPrepareForRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:4449)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:2264
+    at async handleAction (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:34:23622)
+    at async renderToHTMLOrFlightImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:40:41714)
+    at async doRender (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8602:28)
+    at async AppPageRouteModule.handleResponse (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:42:63162)
+    at async handleResponse (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8808:32)
+    at async handler (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:9179:20)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1413:9)
+    at async DevServer.renderPageComponent (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1465:24)
+    at async DevServer.renderToResponseImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1515:32)
+    at async DevServer.pipeImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1021:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/next-server.js:394:17)
+    at async DevServer.handleRequestImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:912:17)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:382:20
+    at async Span.traceAsyncFn (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:378:24)
+    at async invokeRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:240:21)
+    at async handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:436:24)
+    at async requestHandlerImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:484:13)
+    at async Server.requestListener (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/start-server.js:226:13)
+[00:00:21.064] Server  LOG     Invalid credentials
+[00:00:21.064] Server  ERROR   [auth][error] CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+[00:00:21.065] Server  ERROR       at Module.callback (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:4314:30)
+    at async AuthInternal (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5148:24)
+    at async Auth (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5370:34)
+    at async signIn (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_85fe3dd5._.js:4163:17)
+    at async authenticate (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/[root-of-the-server]__947eed69._.js:153:9)
+    at async executeActionAndPrepareForRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:4449)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:2264
+    at async handleAction (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:34:23622)
+    at async renderToHTMLOrFlightImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:40:41714)
+    at async doRender (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8602:28)
+    at async AppPageRouteModule.handleResponse (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:42:63162)
+    at async handleResponse (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8808:32)
+    at async handler (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:9179:20)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1413:9)
+    at async DevServer.renderPageComponent (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1465:24)
+    at async DevServer.renderToResponseImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1515:32)
+    at async DevServer.pipeImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1021:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/next-server.js:394:17)
+    at async DevServer.handleRequestImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:912:17)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:382:20
+    at async Span.traceAsyncFn (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:378:24)
+    at async invokeRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:240:21)
+    at async handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:436:24)
+    at async requestHandlerImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:484:13)
+    at async Server.requestListener (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/start-server.js:226:13)
+[00:00:32.011] Server  LOG     Invalid credentials
+[00:00:32.011] Server  ERROR   [auth][error] CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+[00:00:32.012] Server  ERROR       at Module.callback (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:4314:30)
+    at async AuthInternal (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5148:24)
+    at async Auth (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5370:34)
+    at async signIn (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_85fe3dd5._.js:4163:17)
+    at async authenticate (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/[root-of-the-server]__947eed69._.js:153:9)
+    at async executeActionAndPrepareForRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:4449)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:2264
+    at async handleAction (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:34:23622)
+    at async renderToHTMLOrFlightImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:40:41714)
+    at async doRender (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8602:28)
+    at async AppPageRouteModule.handleResponse (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:42:63162)
+    at async handleResponse (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8808:32)
+    at async handler (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:9179:20)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1413:9)
+    at async DevServer.renderPageComponent (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1465:24)
+    at async DevServer.renderToResponseImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1515:32)
+    at async DevServer.pipeImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1021:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/next-server.js:394:17)
+    at async DevServer.handleRequestImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:912:17)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:382:20
+    at async Span.traceAsyncFn (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:378:24)
+    at async invokeRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:240:21)
+    at async handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:436:24)
+    at async requestHandlerImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:484:13)
+    at async Server.requestListener (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/start-server.js:226:13)
+[00:01:12.088] Server  LOG     Invalid credentials
+[00:01:12.089] Server  ERROR   [auth][error] CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+[00:01:12.089] Server  ERROR       at Module.callback (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:4314:30)
+    at async AuthInternal (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5148:24)
+    at async Auth (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5370:34)
+    at async signIn (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_85fe3dd5._.js:4163:17)
+    at async authenticate (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/[root-of-the-server]__947eed69._.js:153:9)
+    at async executeActionAndPrepareForRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:4449)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:2264
+    at async handleAction (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:34:23622)
+    at async renderToHTMLOrFlightImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:40:41714)
+    at async doRender (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8602:28)
+    at async AppPageRouteModule.handleResponse (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:42:63162)
+    at async handleResponse (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8808:32)
+    at async handler (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:9179:20)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1413:9)
+    at async DevServer.renderPageComponent (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1465:24)
+    at async DevServer.renderToResponseImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1515:32)
+    at async DevServer.pipeImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1021:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/next-server.js:394:17)
+    at async DevServer.handleRequestImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:912:17)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:382:20
+    at async Span.traceAsyncFn (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:378:24)
+    at async invokeRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:240:21)
+    at async handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:436:24)
+    at async requestHandlerImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:484:13)
+    at async Server.requestListener (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/start-server.js:226:13)
+[00:06:39.401] Server  LOG     Invalid credentials
+[00:06:39.402] Server  ERROR   [auth][error] CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+[00:06:39.403] Server  ERROR       at Module.callback (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:4314:30)
+    at async AuthInternal (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5148:24)
+    at async Auth (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5370:34)
+    at async signIn (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_85fe3dd5._.js:4163:17)
+    at async authenticate (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/[root-of-the-server]__947eed69._.js:153:9)
+    at async executeActionAndPrepareForRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:4449)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:2264
+    at async handleAction (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:34:23622)
+    at async renderToHTMLOrFlightImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:40:41714)
+    at async doRender (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8602:28)
+    at async AppPageRouteModule.handleResponse (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:42:63162)
+    at async handleResponse (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8808:32)
+    at async handler (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:9179:20)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1413:9)
+    at async DevServer.renderPageComponent (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1465:24)
+    at async DevServer.renderToResponseImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1515:32)
+    at async DevServer.pipeImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1021:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/next-server.js:394:17)
+    at async DevServer.handleRequestImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:912:17)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:382:20
+    at async Span.traceAsyncFn (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:378:24)
+    at async invokeRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:240:21)
+    at async handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:436:24)
+    at async requestHandlerImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:484:13)
+    at async Server.requestListener (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/start-server.js:226:13)
+[00:06:50.781] Server  LOG     Invalid credentials
+[00:06:50.781] Server  ERROR   [auth][error] CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+[00:06:50.782] Server  ERROR       at Module.callback (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:4314:30)
+    at async AuthInternal (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5148:24)
+    at async Auth (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5370:34)
+    at async signIn (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_85fe3dd5._.js:4163:17)
+    at async authenticate (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/[root-of-the-server]__947eed69._.js:153:9)
+    at async executeActionAndPrepareForRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:4449)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:2264
+    at async handleAction (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:34:23622)
+    at async renderToHTMLOrFlightImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:40:41714)
+    at async doRender (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8602:28)
+    at async AppPageRouteModule.handleResponse (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:42:63162)
+    at async handleResponse (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8808:32)
+    at async handler (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:9179:20)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1413:9)
+    at async DevServer.renderPageComponent (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1465:24)
+    at async DevServer.renderToResponseImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1515:32)
+    at async DevServer.pipeImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1021:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/next-server.js:394:17)
+    at async DevServer.handleRequestImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:912:17)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:382:20
+    at async Span.traceAsyncFn (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:378:24)
+    at async invokeRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:240:21)
+    at async handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:436:24)
+    at async requestHandlerImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:484:13)
+    at async Server.requestListener (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/start-server.js:226:13)
+[00:07:40.127] Server  LOG     Invalid credentials
+[00:07:40.128] Server  ERROR   [auth][error] CredentialsSignin: Read more at https://errors.authjs.dev#credentialssignin
+[00:07:40.128] Server  ERROR       at Module.callback (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:4314:30)
+    at async AuthInternal (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5148:24)
+    at async Auth (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_@auth_core_89c2ae1c._.js:5370:34)
+    at async signIn (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_85fe3dd5._.js:4163:17)
+    at async authenticate (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/[root-of-the-server]__947eed69._.js:153:9)
+    at async executeActionAndPrepareForRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:4449)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:35:2264
+    at async handleAction (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:34:23622)
+    at async renderToHTMLOrFlightImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:40:41714)
+    at async doRender (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8602:28)
+    at async AppPageRouteModule.handleResponse (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:42:63162)
+    at async handleResponse (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:8808:32)
+    at async handler (/home/finvia/Documentos/GitHub/academiamx/.next/dev/server/chunks/ssr/73ac2_next_dist_f523c97d._.js:9179:20)
+    at async DevServer.renderToResponseWithComponentsImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1413:9)
+    at async DevServer.renderPageComponent (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1465:24)
+    at async DevServer.renderToResponseImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1515:32)
+    at async DevServer.pipeImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:1021:25)
+    at async NextNodeServer.handleCatchallRenderRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/next-server.js:394:17)
+    at async DevServer.handleRequestImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/base-server.js:912:17)
+    at async /home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:382:20
+    at async Span.traceAsyncFn (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/trace/trace.js:157:20)
+    at async DevServer.handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/dev/next-dev-server.js:378:24)
+    at async invokeRender (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:240:21)
+    at async handleRequest (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:436:24)
+    at async requestHandlerImpl (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/router-server.js:484:13)
+    at async Server.requestListener (/home/finvia/Documentos/GitHub/academiamx/node_modules/next/dist/server/lib/start-server.js:226:13)
+[00:08:53.928] Server  LOG      ✓ Compiled in 197ms
+[00:14:33.121] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:33.305] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:33.305] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:33.305] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480106135}
+[00:14:35.974] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:36.144] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:36.144] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:36.144] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480108974}
+[00:14:37.139] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:37.291] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:37.291] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:37.291] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480110122}
+[00:14:38.904] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480111732}
+[00:14:41.237] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:41.398] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:41.398] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:41.398] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480114228}
+[00:14:43.813] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:43.960] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:43.960] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:43.960] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480116790}
+[00:14:46.658] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:46.867] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:46.867] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:46.867] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480119697}
+[00:14:47.514] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:47.676] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:47.676] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:47.676] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480120506}
+[00:14:48.435] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:48.589] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:48.589] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:48.589] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480121419}
+[00:14:49.279] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:49.424] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:49.424] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:49.424] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480122254}
+[00:14:50.869] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:51.028] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:51.028] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:51.028] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480123858}
+[00:14:51.513] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:51.693] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:51.693] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:14:51.693] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480124488}
+[00:14:52.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:52.564] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:52.564] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:14:52.564] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480125375}
+[00:14:52.891] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:53.048] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:53.048] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:14:53.048] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480125878}
+[00:14:54.623] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:54.781] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:54.781] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/signup","route":"/signup"}
+[00:14:54.781] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://localhost:3000/signup","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480127611}
+[00:14:55.767] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:55.926] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:55.926] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/login","route":"/login"}
+[00:14:55.926] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480128756}
+[00:14:56.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:57.061] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:14:57.061] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:14:57.061] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480129891}
+[00:14:58.459] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480131269}
+[00:15:00.530] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:00.684] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:00.684] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:15:00.684] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480133514}
+[00:15:39.582] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:39.760] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:39.760] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:15:39.760] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480172591}
+[00:15:44.546] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:44.741] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:44.741] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:15:44.741] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480177572}
+[00:15:46.298] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480179126}
+[00:15:47.643] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:47.869] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:47.869] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:15:47.869] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480180699}
+[00:16:27.719] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.733] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.813] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.823] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.835] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.836] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.841] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.848] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.868] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.870] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.873] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.876] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.878] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.880] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.888] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.889] Server  ERROR    ⨯ ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:27.919] Server  LOG      ✓ Compiled in 751ms
+[00:16:28.022] Browser ERROR   ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Module not found: Can't resolve './navbar-client'
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[00:16:28.622] Browser ERROR   ./Documentos/GitHub/academiamx/components/navbar.tsx:7:1
+Export NavbarClient doesn't exist in target module
+   5 | import { auth } from "@/auth"
+   6 | import { LogoutButton } from "@/components/auth/logout-button"
+>  7 | import { NavbarClient } from "./navbar-client"
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | export async function Navbar() {
+  10 |   const session = await auth()
+
+The export NavbarClient was not found in module [project]/Documentos/GitHub/academiamx/components/navbar-client.tsx [app-rsc] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./Documentos/GitHub/academiamx/components/navbar.tsx
+    ./Documentos/GitHub/academiamx/app/layout.tsx
+[00:16:29.170] Server  LOG      ✓ Compiled in 334ms
+[00:16:31.022] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:31.237] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:31.237] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:16:31.237] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480224068}
+[00:17:13.394] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480266222}
+[00:17:14.992] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/auth/login color: rgb(120, 120, 120) color: inherit {"dp":"/auth/login","o":"http://localhost:3000/auth/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480267822}
+[00:17:34.483] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/catalog color: rgb(120, 120, 120) color: inherit {"dp":"/catalog","o":"http://localhost:3000/catalog","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480287297}
+[00:17:36.229] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:17:36.386] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:36.386] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:17:36.386] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480289216}
+[00:18:40.943] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:41.108] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:41.108] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/dashboard","route":"/dashboard"}
+[00:18:41.108] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/dashboard","o":"http://localhost:3000/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480353938}
+[00:18:54.449] Server  LOG      ✓ Compiled in 221ms
+[00:21:36.551] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480529379}
+[00:21:38.155] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/auth/login color: rgb(120, 120, 120) color: inherit {"dp":"/auth/login","o":"http://localhost:3000/auth/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480530984}
+[00:21:40.761] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/auth/signup color: rgb(120, 120, 120) color: inherit {"dp":"/auth/signup","o":"http://localhost:3000/auth/signup","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480533581}
+[00:22:16.564] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/auth/login color: rgb(120, 120, 120) color: inherit {"dp":"/auth/login","o":"http://localhost:3000/auth/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764480569390}

@@ -1,13 +1,13 @@
-"use client"
-
 import Link from "next/link"
-import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
+import { auth } from "@/auth"
+import { LogoutButton } from "@/components/auth/logout-button"
+import { NavbarClient } from "./navbar-client"
 
-export function Navbar() {
-  const [isOpen, setIsOpen] = useState(false)
+export async function Navbar() {
+  const session = await auth()
 
   const navItems = [
     { label: "Inicio", href: "/" },
@@ -43,45 +43,28 @@ export function Navbar() {
 
           {/* Desktop Auth Buttons */}
           <div className="hidden md:flex items-center gap-4">
-            <Button variant="outline" asChild>
-              <Link href="/login">Iniciar Sesión</Link>
-            </Button>
-            <Button asChild className="bg-primary hover:bg-primary/90">
-              <Link href="/signup">Registrarse</Link>
-            </Button>
+            {session ? (
+              <>
+                <Button variant="outline" asChild>
+                  <Link href="/dashboard">Dashboard</Link>
+                </Button>
+                <LogoutButton />
+              </>
+            ) : (
+              <>
+                <Button variant="outline" asChild>
+                  <Link href="/auth/login">Iniciar Sesión</Link>
+                </Button>
+                <Button asChild className="bg-primary hover:bg-primary/90">
+                  <Link href="/auth/signup">Registrarse</Link>
+                </Button>
+              </>
+            )}
           </div>
 
           {/* Mobile Menu */}
           <div className="md:hidden">
-            <Sheet open={isOpen} onOpenChange={setIsOpen}>
-              <SheetTrigger asChild>
-                <Button variant="ghost" size="icon">
-                  <Menu className="h-6 w-6" />
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="right" className="w-[300px]">
-                <div className="flex flex-col gap-4 mt-8">
-                  {navItems.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="text-base font-medium px-2 py-2 hover:bg-secondary rounded"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      {item.label}
-                    </Link>
-                  ))}
-                  <div className="border-t border-border pt-4 mt-4 flex flex-col gap-2">
-                    <Button variant="outline" asChild className="w-full bg-transparent">
-                      <Link href="/login">Iniciar Sesión</Link>
-                    </Button>
-                    <Button asChild className="w-full bg-primary">
-                      <Link href="/signup">Registrarse</Link>
-                    </Button>
-                  </div>
-                </div>
-              </SheetContent>
-            </Sheet>
+            <NavbarClient session={session} navItems={navItems} />
           </div>
         </div>
       </div>

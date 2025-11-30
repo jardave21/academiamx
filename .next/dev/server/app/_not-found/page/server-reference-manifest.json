@@ -1,0 +1,20 @@
+{
+  "node": {
+    "007d61cc7bd6e272accc74a9e7759a48bd4a07d567": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSignOut",
+          "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "action-browser"
+      },
+      "exportedName": "handleSignOut",
+      "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+    }
+  },
+  "edge": {}
+}
