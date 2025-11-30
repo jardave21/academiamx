@@ -3,6 +3,8 @@
   "/auth/login/page": "app/auth/login/page.js",
   "/auth/signup/page": "app/auth/signup/page.js",
   "/catalog/page": "app/catalog/page.js",
+  "/conferences/page": "app/conferences/page.js",
   "/dashboard/page": "app/dashboard/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/professors/page": "app/professors/page.js"
 }

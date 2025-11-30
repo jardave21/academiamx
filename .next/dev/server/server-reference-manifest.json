@@ -26,6 +26,12 @@
           "exportedName": "handleSignOut",
           "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
         },
+        "app/conferences/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/conferences/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSignOut",
+          "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+        },
         "app/dashboard/page": {
           "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/dashboard/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
           "async": false,
@@ -37,6 +43,12 @@
           "async": false,
           "exportedName": "handleSignOut",
           "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
+        },
+        "app/professors/page": {
+          "moduleId": "[project]/Documentos/GitHub/academiamx/.next-internal/server/app/professors/page/actions.js { ACTIONS_MODULE0 => \"[project]/Documentos/GitHub/academiamx/components/auth/logout-action.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "handleSignOut",
+          "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts"
         }
       },
       "layer": {
@@ -44,8 +56,10 @@
         "app/auth/login/page": "action-browser",
         "app/auth/signup/page": "action-browser",
         "app/catalog/page": "action-browser",
+        "app/conferences/page": "action-browser",
         "app/dashboard/page": "action-browser",
-        "app/page": "action-browser"
+        "app/page": "action-browser",
+        "app/professors/page": "action-browser"
       },
       "filename": "Documentos/GitHub/academiamx/components/auth/logout-action.ts",
       "exportedName": "handleSignOut"
